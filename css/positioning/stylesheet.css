@@ -1,0 +1,36 @@
+
+#octopus {
+    position: fixed;
+    z-index: 4;
+    left: 30%;
+    bottom: 43%;
+
+
+    
+  
+}
+
+#glasses {
+    position: absolute;
+    left: 33%;
+    z-index: 6;
+    bottom: 63%;
+
+    
+
+
+}
+
+
+
+#hat {
+    position: absolute;
+    left: 28%;
+    z-index: 5;
+  
+
+}
+
+
+    
+
