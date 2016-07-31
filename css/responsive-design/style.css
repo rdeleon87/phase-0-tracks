@@ -12,6 +12,17 @@ cite {
 #external-links ul {
   list-style-type: none;
   padding-left: 0px;
+  width: 200px;
+
+
+}
+
+#external-links {
+	display: inline;
+    width: 20%; 
+    vertical-align: top;
+    float: right;
+
 }
 
 /* you're welcome to edit the
@@ -30,3 +41,35 @@ figcaption {
   font-style: italic;
   text-align: right;
 }
+
+body {
+	max-width: 960px;
+	min-width: 200px;
+	padding: 100px;
+}
+
+main {
+	width: 756px;
+	vertical-align: text-top;
+	display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 50%;
+
+  }
+
+@media screen and (max-width: 500px) {
+  #external-links {
+    width: 100%;
+  }
+}
+
+
+/*@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}
+*/
