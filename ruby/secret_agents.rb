@@ -7,12 +7,14 @@ def encrypt(password)
 	while index < password.length
 		if password[index] == " " 
 			password[index] 
-		else 
+		elsif password[index] == "z"
+			password[index] = "a"
+ 	    else
 			password[index] = password[index].next!
 		end
 	    index += 1
 	end 
-	return password
+	return password 
 end
 
 # Decryption method:
@@ -33,7 +35,11 @@ def decrypt(password)
 	return password 
 end
 
-#
+# release 3 - test our methods
 
+puts encrypt("abc")
+puts encrypt("zed")
+puts decrypt("bcd")
+puts decrypt("afe")
 
 
