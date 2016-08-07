@@ -42,4 +42,5 @@ puts encrypt("zed")
 puts decrypt("bcd")
 puts decrypt("afe")
 
-
+# this nested method call works because swordfish is being encrypted first and then decrypted.
+puts decrypt(encrypt("swordfish"))
