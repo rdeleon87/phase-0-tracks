@@ -44,3 +44,35 @@ puts decrypt("afe")
 
 # this nested method call works because swordfish is being encrypted first and then decrypted.
 puts decrypt(encrypt("swordfish"))
+
+# ask user for name
+# ask user password
+# ask user if they would like to decrypt or encrypt a word
+# if decrypt, run decrypt method
+# if encrypt, run encrypt method
+# print the result to screen
+# exit program
+
+puts "Welcome! What is your name agent?"
+agent = gets.chomp
+
+puts "What is the password?"
+secret_word = gets.chomp
+
+puts "Would you like to decrypt or encrypt this password?"
+action = gets.chomp
+
+if action == "decrypt" 
+	 decrypted_word = decrypt(secret_word)
+	 puts "Your decrypted word is #{decrypted_word}."
+else 
+     encrypted_word = encrypt(secret_word)
+     puts "Your encrypted word is #{encrypted_word}."
+end
+
+puts "Goodbye Agent #{agent}!"
+
+
+
+
+		   
