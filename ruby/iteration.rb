@@ -29,3 +29,31 @@ array_1.length
 end
 
 p array_1
+p hash_1
+hash_1.each{ |actor, genre| puts "#{actor} is known for great movies in #{genre}" }
+
+
+
+
+
+ hash_2 = {
+ 	      'cars' => "honda",
+ 	      'trucks' => "ford",
+ 	      'vans' => "chevy",
+ 	      'trains' => "bombadier"
+ }
+ 
+ array_2 = ["jimmy", "john", "rhonda", "robin"]
+ 
+
+p array_2
+p hash_2
+
+#We are running a block that will delete the key = cars
+hash_2.delete_if{|type, brand | type == 'cars' }  
+p hash_2
+
+array_2.delete_if{ |name| name == "john"}
+p array_2
+hash_2.keep_if {|type, brand | type == 'vans' }
+p hash_2
