@@ -1,3 +1,12 @@
+
+#define alias_creator method
+#rotate vowels to get next one
+#ask user for their first name
+#ask user for their last name
+#return last_name and first_name with all vowels changed to the next one
+
+
+
 VOWELS = %w(a e i o u)
 ROTATED_VOWELS = VOWELS.rotate 1
 
