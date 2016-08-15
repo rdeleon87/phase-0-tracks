@@ -46,7 +46,14 @@ puts "Your alias is #{alias_creator(first_name + last_name)}"
 loop do
   puts "Do you want to create another alias?"
   answer = gets.chomp
-  if answer != 'no'
+  if answer != 'yes'
+     puts "Welcome to the alias generator!"
+     puts "what is your first name?"
+     first_name = gets.chomp.to_s
+     puts "what is your last name?"
+     last_name = gets.chomp.to_s
+     first_name, last_name = last_name, first_name
+     puts "Your alias is #{alias_creator(first_name + last_name)}"
      break
   end
 end
