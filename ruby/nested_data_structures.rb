@@ -1,4 +1,4 @@
-Rock show in brooklyn
+# Rock show in brooklyn
 
 stages = {
     first_stage: {
@@ -27,11 +27,19 @@ stages = {
         band: 'Guns and Roses',
         seating_capacity: {
             total_seats: 60000,
-            seats_available: 0
+            seats_available: 2
         },
         amps: [
-            "Marshall Slash signature"
+            "Marshall Slash signature",
             "Axe Fx"   
         ]
     }
 }
+
+p stages[:second_stage][:band]
+
+p stages[:third_stage][:amps]
+
+p stages[:first_stage][:amps].push "Axe Fx"
+
+p stages[:third_stage][:band].insert(14, ' megadeth')
