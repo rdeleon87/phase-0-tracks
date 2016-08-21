@@ -19,3 +19,5 @@ class Puppy
 end
 
 rocky = Puppy.new
+
+rocky.class
