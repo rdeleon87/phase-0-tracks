@@ -1,0 +1,21 @@
+# How to use elevator for robots
+
+# Call elevator by pressing button to call it 
+in the direction you want to go in 
+# Enter elevator 
+# press button to go to desired floor
+# press door close button
+# Wait in elevator until doors open to your floor
+# exit elevator 
+
+#how to change guitar strings on a hard tail bridge
+
+# Assemble tools you will need (string winder, phillips head screwdriver, and pliers)
+# Loosen tension on all strings
+# Begin unwinding strings one at a time with the winder
+# once strings a removed, clean the fretboard and bridge
+# Begin winding with the lowest string and go up from there
+# tune each string
+# Stretch strings by playing and bending them for a few minutes 
+# tune again and repeat the process until tunin stabililty is achieved
+# Throw out old strings  
